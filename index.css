@@ -21,6 +21,13 @@ p{
     text-align: justify;
 }
 
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom:none;
+    margin: 20px auto;
+    width: 70px;
+}
+
 [class*="col-"]{
     float: left;
     padding: 10px;
@@ -113,3 +120,51 @@ p{
     clear: both;
 }
 
+h2{
+    text-align: center;
+}
+
+/* about me design start from here */
+
+.about-me{
+    background-color:black;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content:'';
+}
+
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius:50%;
+    height: 500px;
+    width: 490px;
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.about-me a{
+    font-size: 1.2rem;
+}
+
+.aboutme-desc button{
+    background-color:#052b2f;
+    color: white;
+    border: none;
+    border-radius:12px;
+    padding: 15px;
+    font-size:m 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+
+}
+/* about me design end from here */

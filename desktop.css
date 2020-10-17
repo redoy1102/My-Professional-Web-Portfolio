@@ -67,3 +67,15 @@
 }
 
 /* profile designs ends here */
+
+/* about me design start here */
+
+.aboutme-image{
+    margin-top: 10px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+/* about me design end here */
